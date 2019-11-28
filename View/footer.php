@@ -1,29 +1,37 @@
-<div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          <p class="lead">Sign up to our newsletter for the latest news</p>
-          <form class="form-inline">
-            <div class="form-group"> <input type="email" class="form-control" placeholder="Your e-mail here"> </div> <button type="submit" class="btn btn-primary ml-3">Subscribe</button>
-          </form>
-        </div>
-        <div class="col-4 col-md-1 align-self-center"> <a href="#">
-            <i class="fa fa-fw fa-facebook text-muted fa-2x"></i>
-          </a> </div>
-        <div class="col-4 col-md-1 align-self-center"> <a href="#">
-            <i class="fa fa-fw fa-twitter text-muted fa-2x"></i>
-          </a> </div>
-        <div class="col-4 col-md-1 align-self-center"> <a href="#">
-            <i class="fa fa-fw fa-instagram text-muted fa-2x"></i>
-          </a> </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 mt-3 text-center">
-          <p>© Copyright 2018 Pingendo - All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- ========================= Rodapé/Footer ========================= -->
+
+    <footer class="section-footer border-top padding-y ">
+                <div class="py-3" >
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-12 text-center d-md-flex align-items-center"> <i class="d-block fa fa-paw fa-2x mr-md-5 text-dark"></i>
+                              <ul class="nav mx-md-auto d-flex justify-content-center">
+                                <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Features</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Pricing</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                              </ul>
+                              <div class="row">
+                                <div class="col-md-12 d-flex align-items-center justify-content-md-between justify-content-center my-2"> <a href="#">
+                                    <i class="d-block fa fa-facebook-official text-muted fa-lg mx-2"></i>
+                                  </a> <a href="#">
+                                    <i class="d-block fa fa-instagram text-muted fa-lg mx-2"></i>
+                                  </a> <a href="#">
+                                    <i class="d-block fa fa-twitter text-muted fa-lg ml-2"></i>
+                                  </a> </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 text-center">
+                              <p class="mt-2 mb-0">© 2019 - Todos os direitos Reservados</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+        </footer>
+
+        <!-- ========================= Rodapé/Footer ========================= -->
                 
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

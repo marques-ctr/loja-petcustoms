@@ -18,7 +18,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
                 <div class="container">
-                <a class="navbar-brand" href="#">Pet Customs</a>
+                <a class="navbar-brand" href="<?php echo $url; ?>/home/">Pet Customs</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -38,9 +38,9 @@
                         </div>
                     </div>
                     <ul class="navbar-nav">
-                    <li class="nav-item dropdown carrinho-menu">
-                        <a class="nav-link dropdown" href="<?php echo $url; ?>/carrinho">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrinho
+                    <li class="nav-item dropdown carrinho-menu ml-auto">
+                        <a class="nav-link dropdown" href="<?php echo $url; ?>/carrinho/">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrinho <span>0</span>
                         </a> 
                     </li>
                     </ul>
@@ -50,9 +50,9 @@
                         <i class="fa fa-user-circle" aria-hidden="true"></i> Login / Cadastro
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="<?php echo $url; ?>/login">Fazer Login</a>
+                        <a class="dropdown-item" href="<?php echo $url; ?>/login/">Fazer Login</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="<?php echo $url; ?>/cadastro">Cadastrar-se</a>
+                        <a class="dropdown-item" href="<?php echo $url; ?>/cadastro/">Cadastrar-se</a>
                         </div>
                     </li>
                     </ul>
@@ -60,4 +60,28 @@
                 </div>
             </nav>
 
-            <!--  Menu/Navbar -->
+
+            
+            
+            <div class="top-space">
+
+                <ul class="nav bg-warning">
+                    <div class="container">
+                        <ul class="nav justify-content-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-menu-top" href="#"><i class="fa fa-user" aria-hidden="true"></i> Dono do Pet</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link link-menu-top" href="#"><i class="fas fa-dog"></i> Cachorro</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-menu-top" href="#"><i class="fas fa-cat"></i> Gato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-menu-top" href="#"><i class="fas fa-dove"></i> Aves</a>
+                        </li>                  
+                        </ul>
+                    </div>
+                </div>
+
+                  <!--  Menu/Navbar -->

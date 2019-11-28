@@ -1,25 +1,5 @@
 <?php include "view/header.php"?>
 
-    <div class="top-space">
-
-                    <ul class="nav bg-warning">
-                        <div class="container">
-                            <ul class="nav justify-content-center">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link link-menu-top" href="#"><i class="fa fa-user" aria-hidden="true"></i> Dono do Pet</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link link-menu-top" href="#"><i class="fas fa-dog"></i> Cachorro</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link link-menu-top" href="#"><i class="fas fa-cat"></i> Gato</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link link-menu-top" href="#"><i class="fas fa-dove"></i> Aves</a>
-                            </li>                  
-                            </ul>
-                        </div>
-    </div>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
