@@ -1,7 +1,7 @@
 <?php
 
     namespace LOJA\Model;
-    
+    use LOJA\includes\Util;
     class Cliente{
         private $id;
         private $nome;
