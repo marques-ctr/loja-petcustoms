@@ -4,7 +4,12 @@
     },
     "autoload": {
         "psr-4":{
-            "LOJA\\" : "src/"
+            "LOJA\\" : "www/"
         }
+    },
+
+    "require": {
+        "facebook/webdriver": "^1.7"
     }
+     
 }
